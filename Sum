@@ -1,0 +1,6 @@
+while true do
+  for i, server in pairs(game.Servers) do
+    server.Broadcast("Attention all players: This is an announcement!")
+  end
+  wait(60)  -- Wait 60 seconds before announcing again
+end
